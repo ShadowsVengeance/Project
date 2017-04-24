@@ -26,7 +26,7 @@ if(!empty($weaponID)) {
 <head>
     <meta charset="utf-8">
 
-    <title>Books</title>
+    <title><?php echo $weapon['name'] ?></title>
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
 

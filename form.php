@@ -11,11 +11,10 @@ $action = $_GET['action'];
 
 $type = get('type');
 
-// Get the book isbn from the URL if it exists using the newly written get function
+
 $costumeID = get('costumeid');
 $weaponID = get('weaponid');
 
-// Initially set $book to null;
 $costume = null;
 $weapon = null;
 
@@ -91,7 +90,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $price = $_POST['weapon-price'];
 
         if ($action == 'add') {
-            // Insert book
+
             $sql = file_get_contents('sql/insertWeapon.sql');
             $params = array(
                 'name' => $name,
@@ -121,7 +120,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         }
     }
-	// Redirect to book listing page
+
 	header('location: index.php');
 }
 
@@ -134,7 +133,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
 	<meta charset="utf-8">
 	
-  	<title>Manage Book</title>
+  	<title>Manage Products</title>
 	<meta name="description" content="The HTML5 Herald">
 	<meta name="author" content="SitePoint">
 

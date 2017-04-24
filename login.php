@@ -5,6 +5,7 @@ include('config.php');
 
 // Include functions for application
 include('functions.php');
+
 // If form submitted:
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	// Get username and password from the form as variables
