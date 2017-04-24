@@ -1,0 +1,88 @@
+header, nav, main, footer { display: block; }
+body { font-family:Verdana, Arial, sans-serif;
+   
+}
+#wrapper { background-color: #d3d3d3;  
+           color: #000066;
+           width: 80%;
+		   margin: auto;
+} 
+header { background-color: #869dc7;
+        color: #00005D; 
+        font-size: 150%; 
+        padding: 5px 20px 20px;
+		height:150px;
+}
+h1 { margin-bottom: 0; } 
+#tag { padding-right: 20px;
+	   font-size: .80em;
+	   font-style: italic;
+	   text-align: right;
+	   color: #00005D;
+}	        
+h2 { color: #869dc7; 
+     font-family: arial, sans-serif;
+	 font-size: 200%;
+}
+nav { float: left;
+	   width: 150px;
+	   letter-spacing:0.1em;
+	   font-weight: bold;
+        padding-bottom: 50px;
+} 
+nav ul { list-style-type: none; 
+         margin: 0;
+         padding: 0;
+}
+nav li { padding: 15px;
+}
+nav a { text-decoration: none; 
+}
+nav a:link { color: black; }
+nav a:visited { color: purple; }
+nav a:hover {  color: green;}
+main { margin-left: 155px;
+        padding: 20px; 
+        background-color: #ffffff;
+        color: #000000;
+} 
+#rightcol { margin: 10px;
+              float: right;
+}
+figcaption { font-size: 80%;
+               font-style: italic;
+			   text-align: center;
+}
+footer { 
+		font-size:70%;
+         text-align: center;
+		 clear: right;
+         padding: 20px;
+}
+.form-element {
+    overflow: hidden;
+    padding-bottom: 25px;
+}
+
+.form-element label {
+    font-weight: bold;
+    display: block;
+    padding-bottom: 7px;
+}
+
+.form-element .textbox {
+    display: block;
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+}
+
+.form-element .radio {
+    margin-right: 15px;
+    margin-top: 10px;
+    margin-left: 1px
+}
+
+.radio-label {
+    vertical-align: middle;
+}
